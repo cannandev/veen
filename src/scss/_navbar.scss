@@ -1,0 +1,7 @@
+.navbar {
+  @extend .container;
+
+  &__toggler {
+    @include float-right;
+  }
+}

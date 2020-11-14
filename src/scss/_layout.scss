@@ -1,0 +1,19 @@
+body {
+  @extend .container;
+}
+
+body > header,
+main,
+footer {
+  @extend .row;
+}
+
+main > article {
+  padding-left: $spacer;
+  padding-right: $spacer;
+}
+
+article .img-responsive {
+  max-width: 100%;
+  height: auto;
+}
