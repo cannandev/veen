@@ -1,3 +1,5 @@
 # Ignore node_modules
 node_modules
 
+# Ignore sketch files
+src/images/*sketch
